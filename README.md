@@ -1,10 +1,10 @@
-### Getting-and-Cleaning-data
+## Getting-and-Cleaning-data
 
 Data science is one of the biggest industries in the present and today we are going to look at the intreseting data collected by Samsung Galaxy S smartphone regarding human activites using features like gyroscope and accelerometer. Where we the data was retrived had to be worked on and also cleaned to create a tidy data which will be very efficient and also easy to analyze on. Also, companies like Fitbit, Nike and Jawbone are competting to achive better algorithms to get advance.
 
 But, In this project we will be looking at data collected by the Samsung Galaxy S smartphones.
 
-####Improtant Files to focus on in the Repository:
+###Improtant Files to focus on in the Repository:
 
 README.md, the particular file we are looking at, this file provides the reader with a basic context on how the data set looks and how it has been created. The file tidy_data.txt contains the data set. 
 which provides an overview of the data set and how it was created. tidy_data.txt, which contains the data set. CodeBook.md, the code book, which describes the contents of the data set (data, variables and transformations used to generate the data). run_analysis.R, the R script that was used to create the data set (see the Creating the data set section below) Study design
