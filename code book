@@ -1,1 +1,25 @@
-this will explain about the code that has been excecuted
+##Explanation regarding the attributes in the data set.
+
+The dataset is then divided in two parts and they can be used separately.
+
+1. Inertial sensor data
+- Raw triaxial signals from the accelerometer and gyroscope of all the trials with with participants.
+- The labels of all the performed activities.
+
+2. Records of activity windows. Each one composed of:
+- A 561-feature vector with time and frequency domain variables.
+- Its associated activity label.
+- An identifier of the subject who carried out the experiment.
+
+
+Include all the activity labels available for the dataset (1 per row).
+Column 1: experiment number ID,
+Column 2: user number ID,
+Column 3: activity number ID
+Column 4: Label start point (in number of signal log samples (recorded at 50Hz))
+Column 5: Label end point (in number of signal log samples)
+
+- Features are normalized and bounded within [-1,1].
+- Each feature vector is a row on the 'X' and 'y' files.
+- The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2).
+- The gyroscope units are rad/seg.
